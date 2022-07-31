@@ -17,6 +17,7 @@ def main():
         try:
             WebCookie = login.Web(account=account,password=password)
             print(f"\n{account}登录成功！")
+            
         except:
             print(f"\n{account}登录失败...")
             continue
