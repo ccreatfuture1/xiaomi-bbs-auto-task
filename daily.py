@@ -12,6 +12,8 @@ def main():
             continue
         account = Account["account"]
         password = Account["password"]
+        print(account)
+        print(password)
         try:
             WebCookie = login.Web(account=account,password=password)
             print(f"\n{account}登录成功！")
